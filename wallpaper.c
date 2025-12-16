@@ -7,9 +7,8 @@ void draw_wallpaper(void) {
  int rows = ((ws.ws_row - 2 - 11) / 10) - 2;
  int cols = ((ws.ws_col - 2) / 19) - 2;
 
- if(term_sup[TERMSUP_4COLOR]) {
-  fputs("\033[93;43m", stdout);
- }
+ fputs("\033[93;43m", stdout);
+ // TODO = add improved colors for terminals that support it
 
  FILE* top_left = fopen("paper-top-left.txt", "r");
  FILE* top_middle = fopen("paper-top-middle.txt", "r");
