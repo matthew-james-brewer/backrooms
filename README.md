@@ -1,6 +1,8 @@
 # backrooms experiment
 
-I wrote some code, it needs ffmpeg. Run it.
+I wrote some code, it needs ffmpeg and a library I made, termsup.
+
+Build it with CMake, then run it.
 
 If you want to see the code, go ahead, but it's written in c.
 
