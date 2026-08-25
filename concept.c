@@ -22,7 +22,7 @@ int buzz_loop(void* arg) {
  (void)arg;
 
  for(int j = 0; j < 1; j++) {
-  int i = system("ffplay -autoexit -v fatal hum1.wav");
+  int i = system("ffplay -nodisp -autoexit -v fatal hum1.wav");
   if(i /* != 0 */) {
    exit(i);
   }
